@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+.data/
+*.tsbuildinfo
+next-env.d.ts
+.env
+.env.local
+.env*.local
+.DS_Store
+.vercel
+uploads-tmp/
+
+# End-to-end test artefacts
+.e2e/
+playwright-report/
+test-results/
+
+# Local preview database
+.preview/
+
+# OCR engine assets copied from node_modules at build time
+public/ocr/
